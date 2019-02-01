@@ -1,0 +1,140 @@
+/* .master {
+  outline: 0.1em;
+outline-color: yellow;
+outline-style: dotted;
+}
+.main {
+  outline: 0.1em;
+outline-color: blue;
+outline-style: dotted;
+}
+.header-container {
+  outline: 0.1em;
+outline-color: pink;
+outline-style: dotted;
+} */
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  /* outline:0.1em;
+  outline-color: red;
+  outline-style:dashed; */
+  height:auto;
+  justify-content: space-between;
+
+  color: grey;
+  box: 1px solid red;
+}
+
+.left-head {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right-head {
+  display: flex;
+  justify-content:flex-end;
+}
+
+
+.myaccount{
+  background-color: white;
+  color: grey;
+  outline-style:none;
+}
+
+.post {
+  margin-left: 20px;
+  background-color:#32A9D4;
+  color: white;
+}
+
+.mountainsearch{
+  display:flex;
+  flex-wrap: nowrap;
+  color:grey;
+
+}
+input[type="search"]{
+  outline-top:none;
+  background-color: none;
+  outline-color: none;
+  outline-left: none;
+  justify -content: center;
+}
+.filters {
+  color: grey;
+  outline-top: none;
+}
+
+/* body [] */
+
+#one {
+width: 40%;
+  /* height: 175px; */
+  /* border: 1px solid pink; */
+  /* outline-color: pink;
+  outline-style: solid;
+  outline-width: .1em; */
+  margin: 2em;
+  padding: 10px;
+
+}
+#weird{
+  width: 100%;
+}
+
+.regular-image {
+   width: 100%;
+
+}
+
+/* .photo-grid-container{
+  color: gray;
+  display: grid;
+  grid-template-columns: 70%, 40%;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-between; */
+  /* width: 70%; */
+
+.grid-small{display: grid;
+  grid-row-start: 1;
+
+
+}
+.photo-grid {
+  width:20%;
+  height: 171px;
+  /* outline-color: pink;
+  outline-style: solid;
+  outline-width: .1em; */
+  margin: 1em;
+  padding: 10px;
+}
+/* .photo-grid img {
+  width: 50%;
+  max-height:100px;
+} */
+
+/* .part-1 { */
+  /* display: flex;
+  justify-content: space-around; */
+  /* align-items: center; */
+}
+
+/* .part-2 {
+
+} */
